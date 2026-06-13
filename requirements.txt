@@ -1,0 +1,9 @@
+langchain
+langchain_openai
+langchain_core
+langchain_text_splitters
+pydantic
+python-dotenv
+PyPDF2
+langchain_community
+langchain_ollama
