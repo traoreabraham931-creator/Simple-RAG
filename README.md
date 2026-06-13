@@ -6,3 +6,4 @@ words. To perform inference task, we need to learn weights which are numerical v
 
 ## Generative AI
 
+Generative AI is about generating new contents. This is generally done by submitting a query 
