@@ -14,4 +14,10 @@ RAG stands for retrieval augmented generation, and the main components of RAG ar
 2. Retrieval: the closest matches are recovered by a using a similarity measure.
 3. Generation: the closest matches are combined with the initial query expand it, and this new query is fed into a LLM model that yields an output.
 
-In practice, 
+In practice, we proceed as follows:
+Step 1: a knowledge base is prepared, and each content of this base is split into chunks/tokens with predefined size, undergoes embedding, and is stored in a vector database.
+Step 2: a query is submitted, and this query is also split into chunks/tokens and undergoes embedding.
+Step 3: the closest matches of the query are recovered in the vector database using a similarity measure.
+Step 4: these closest matches are combined with the initial query, and the new query resulting from this combination is submitted to a LLM
+model.
+Step 5: ultimately, the LLM model yields an answer.
