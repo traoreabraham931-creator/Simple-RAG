@@ -21,3 +21,6 @@ Step 3: the closest matches of the query are recovered in the vector database us
 Step 4: these closest matches are combined with the initial query, and the new query resulting from this combination is submitted to a LLM
 model.
 Step 5: ultimately, the LLM model yields an answer.
+
+## Application
+An example of information retrieval in a CV is proposed in the Jupyter notebook attached to this project.
